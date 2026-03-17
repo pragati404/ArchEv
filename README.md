@@ -19,3 +19,8 @@ Calibration & 3D Coordinate Mapping
 
 🎯 Objective
 To design an efficient and automated Electric Vehicle charging system for increased user convenience and future Electric Vehicle technology.
+
+📦 Model Weights
+
+Due to size limitations, the trained model is not included in this repository.
+link : https://drive.google.com/file/d/1OA3mKlKrSxeFnvDRQgOREwrGv_rUF7CC/view?usp=sharing
