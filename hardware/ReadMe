@@ -1,0 +1,16 @@
+## 🔧 Hardware Design (Altium)
+
+The ArchEV system includes a custom-designed PCB developed using Altium Designer.
+
+### 📸 PCB Design
+hardware/images/archev_pcb_3d.png
+
+### 📄 Complete Hardware Design
+Includes schematic, PCB layout, and BOM:
+hardware/schematics/archev_hardware_design.pdf
+
+### ⚡ Key Features
+- Teensy 4.1 microcontroller integration  
+- Motor driver interfaces (PUL/DIR)  
+- Stable power input with filtering  
+- Modular connectors for scalability  
