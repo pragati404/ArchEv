@@ -39,6 +39,7 @@ data/        → Dataset/configs
 Custom PCB designed in Altium for motor control and system interfacing.
 
 👉 [View Hardware Design](hardware/)
+PCB FILES : https://drive.google.com/drive/folders/1RLfGGfEXFfltMMTO_4W8Be5pAfSRfIsN?usp=sharing
 
 ---
 
@@ -46,7 +47,7 @@ Custom PCB designed in Altium for motor control and system interfacing.
 
 Due to size limitations, the trained model is not included.
 
-👉 Download: (ADD YOUR GOOGLE DRIVE LINK)
+👉 Download: (https://drive.google.com/file/d/1OA3mKlKrSxeFnvDRQgOREwrGv_rUF7CC/view?usp=drive_link)
 
 Place in:
 
