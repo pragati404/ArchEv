@@ -4,28 +4,28 @@ import numpy as np
 import open3d as o3d
 from ultralytics import YOLO
 
-# -------------------------
+
 # Load YOLO model
-# -------------------------
+
 model = YOLO("best.pt")
 
-# -------------------------
+
 # Load MiDaS depth model
-# -------------------------
+
 midas = torch.hub.load("intel-isl/MiDaS", "MiDaS_small")
 midas.eval()
 
 transforms = torch.hub.load("intel-isl/MiDaS", "transforms")
 transform = transforms.small_transform
 
-# -------------------------
+
 # Webcam
-# -------------------------
+
 cap = cv2.VideoCapture(0)
 
-# -------------------------
+
 # Open3D viewer
-# -------------------------
+
 vis = o3d.visualization.Visualizer()
 vis.create_window("ArchEV 3D Point Cloud", width=800, height=600)
 
