@@ -33,9 +33,9 @@ while True:
 
     color = np.asanyarray(color_frame.get_data())
 
-    # -----------------------------
+   
     # YOLO Detection
-    # -----------------------------
+   
     results = model(color)
 
     for box in results[0].boxes:
