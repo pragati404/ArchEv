@@ -3,17 +3,17 @@ import numpy as np
 import cv2
 from ultralytics import YOLO
 
-# -----------------------------
+
 # Load YOLO model
-# -----------------------------
+
 model = YOLO("best.pt")
 
 # Confidence threshold
 CONF_THRESHOLD = 0.3
 
-# -----------------------------
+
 # Start RealSense pipeline
-# -----------------------------
+
 pipeline = rs.pipeline()
 config = rs.config()
 
